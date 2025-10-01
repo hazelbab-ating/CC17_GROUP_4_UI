@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GROUP4UI">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".HomePage"
+            android:exported="false" />
+
+        <activity
+            android:name=".MiniGames"
+            android:exported="false" />
+
+        <activity
+            android:name=".Strawberry"
+            android:exported="false" />
+
+        <activity
+            android:name=".Strawberry2"
+            android:exported="false" />
+
+        <activity
+            android:name=".Strawberry3"
+            android:exported="false" />
+
+        <activity
+            android:name=".Weave"
+            android:exported="false" />
+
+        <activity
+            android:name=".Weave1"
+            android:exported="false" />
+
+        <activity
+            android:name=".Weave2"
+            android:exported="false" />
+
+        <activity
+            android:name=".Weave3"
+            android:exported="false" />
+
+        <activity
+            android:name=".Weave4"
+            android:exported="false" />
+
+        <activity
+            android:name=".Weave5"
+            android:exported="false" />
+
+        <activity
+            android:name=".Weave6"
+            android:exported="false" />
+
+        <activity
+            android:name=".Weave7"
+            android:exported="false" />
+
+        <activity
+            android:name=".Weave8"
+            android:exported="false" />
+
+        <activity
+            android:name=".Weave9"
+            android:exported="false" />
+
+        <activity
+            android:name=".Weave10"
+            android:exported="false" />
+
+        <activity
+            android:name=".Weave11"
+            android:exported="false" />
+
+        <activity
+            android:name=".Weave12"
+            android:exported="false" />
+
+        <activity
+            android:name=".Weave13"
+            android:exported="false" />
+
+        <activity
+            android:name=".Weave14"
+            android:exported="false" />
+
+        <activity
+            android:name=".Weave15"
+            android:exported="false" />
+
+        <activity
+            android:name=".Glossary"
+            android:exported="false" />
+
+        <activity
+            android:name=".Glossary1"
+            android:exported="false" />
+
+        <activity
+            android:name=".Glossary2"
+            android:exported="false" />
+
+        <activity
+            android:name=".Glossary3"
+            android:exported="false" />
+
+        <activity
+            android:name=".Glossary4"
+            android:exported="false" />
+
+        <activity
+            android:name=".Glossary5"
+            android:exported="false" />
+
+        <activity
+            android:name=".Glossary6"
+            android:exported="false" />
+
+        <activity
+            android:name=".Glossary7"
+            android:exported="false" />
+
+        <activity
+            android:name=".Glossary8"
+            android:exported="false" />
+
+        <activity
+            android:name=".Glossary9"
+            android:exported="false" />
+
+        <activity
+            android:name=".Glossary10"
+            android:exported="false" />
+
+        <activity
+            android:name=".Rewards"
+            android:exported="false" />
+    </application>
+</manifest>
