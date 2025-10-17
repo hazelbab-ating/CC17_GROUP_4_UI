@@ -22,6 +22,7 @@
         android:id="@+id/backBtn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:background="@android:color/transparent"
         android:scaleX="0.7"
         android:scaleY="0.7"
@@ -81,9 +82,9 @@
                     android:layout_height="150dp"
                     android:layout_margin="4dp"
                     android:adjustViewBounds="true"
-                    android:scaleType="centerInside"
                     android:background="@android:color/transparent"
-                    app:srcCompat="@drawable/weave" />
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/weave1" />
 
                 <ImageButton
                     android:id="@+id/tile2"
@@ -91,9 +92,9 @@
                     android:layout_height="150dp"
                     android:layout_margin="4dp"
                     android:adjustViewBounds="true"
-                    android:scaleType="centerInside"
                     android:background="@android:color/transparent"
-                    app:srcCompat="@drawable/frame_19" />
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/weave2" />
             </TableRow>
 
             <TableRow
@@ -109,9 +110,9 @@
                     android:layout_height="150dp"
                     android:layout_margin="4dp"
                     android:adjustViewBounds="true"
-                    android:scaleType="centerInside"
                     android:background="@android:color/transparent"
-                    app:srcCompat="@drawable/frame_20" />
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/weave3" />
 
                 <ImageButton
                     android:id="@+id/tile4"
@@ -119,9 +120,9 @@
                     android:layout_height="150dp"
                     android:layout_margin="4dp"
                     android:adjustViewBounds="true"
-                    android:scaleType="centerInside"
                     android:background="@android:color/transparent"
-                    app:srcCompat="@drawable/frame_27" />
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/weave4" />
             </TableRow>
 
             <TableRow
@@ -139,7 +140,7 @@
                     android:adjustViewBounds="true"
                     android:background="@android:color/transparent"
                     android:scaleType="centerInside"
-                    app:srcCompat="@drawable/kinarchago" />
+                    app:srcCompat="@drawable/weave5" />
 
                 <ImageButton
                     android:id="@+id/tile6"
@@ -149,7 +150,7 @@
                     android:adjustViewBounds="true"
                     android:background="@android:color/transparent"
                     android:scaleType="centerInside"
-                    app:srcCompat="@drawable/frame_19" />
+                    app:srcCompat="@drawable/weave8" />
             </TableRow>
 
             <TableRow
@@ -167,7 +168,7 @@
                     android:adjustViewBounds="true"
                     android:background="@android:color/transparent"
                     android:scaleType="centerInside"
-                    app:srcCompat="@drawable/frame_20" />
+                    app:srcCompat="@drawable/weave8" />
 
                 <ImageButton
                     android:id="@+id/tile8"
@@ -177,7 +178,7 @@
                     android:adjustViewBounds="true"
                     android:background="@android:color/transparent"
                     android:scaleType="centerInside"
-                    app:srcCompat="@drawable/frame_27" />
+                    app:srcCompat="@drawable/weave8" />
             </TableRow>
 
         </TableLayout>
