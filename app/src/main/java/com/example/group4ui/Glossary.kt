@@ -1,7 +1,6 @@
 package com.example.group4ui
 
 import android.content.Intent
-import android.media.Image
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
@@ -47,17 +46,17 @@ class Glossary: AppCompatActivity() {
             startActivity(intent)
         }
 
-        findViewById<Button>(R.id.tBtn7).setOnClickListener {
+        findViewById<Button>(R.id.tBtn13).setOnClickListener {
             val intent = Intent(this, Glossary7::class.java)
             startActivity(intent)
         }
 
-        findViewById<Button>(R.id.tBtn8).setOnClickListener {
+        findViewById<Button>(R.id.tBtn9).setOnClickListener {
             val intent = Intent(this, Glossary8::class.java)
             startActivity(intent)
         }
 
-        findViewById<Button>(R.id.tBtn9).setOnClickListener {
+        findViewById<Button>(R.id.tBtn13).setOnClickListener {
             val intent = Intent(this, Glossary9::class.java)
             startActivity(intent)
         }

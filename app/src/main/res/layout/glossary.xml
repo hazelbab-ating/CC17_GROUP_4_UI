@@ -188,7 +188,7 @@
                     android:elevation="10dp"
                     android:fontFamily="@font/andika"
                     android:paddingLeft="10dp"
-                    android:text="The binakol pattern..."
+                    android:text="Rattan armor..."
                     android:textAlignment="textStart"
                     android:textSize="24sp"
                     android:textStyle="bold" />
@@ -202,7 +202,7 @@
                     android:elevation="10dp"
                     android:fontFamily="@font/andika"
                     android:paddingLeft="10dp"
-                    android:text="The Kaminsa shield..."
+                    android:text="The Sinawit..."
                     android:textAlignment="textStart"
                     android:textSize="24sp"
                     android:textStyle="bold" />
@@ -216,7 +216,7 @@
                     android:elevation="10dp"
                     android:fontFamily="@font/andika"
                     android:paddingLeft="10dp"
-                    android:text="Rattan armor..."
+                    android:text="The Kaminsa shield..."
                     android:textAlignment="textStart"
                     android:textSize="24sp"
                     android:textStyle="bold" />
@@ -230,7 +230,7 @@
                     android:elevation="10dp"
                     android:fontFamily="@font/andika"
                     android:paddingLeft="10dp"
-                    android:text="The binakol pattern..."
+                    android:text="Kalinga women..."
                     android:textAlignment="textStart"
                     android:textSize="24sp"
                     android:textStyle="bold" />
@@ -244,7 +244,7 @@
                     android:elevation="10dp"
                     android:fontFamily="@font/andika"
                     android:paddingLeft="10dp"
-                    android:text="Tinaggu pattern..."
+                    android:text="The binakol pattern..."
                     android:textAlignment="textStart"
                     android:textSize="24sp"
                     android:textStyle="bold" />
@@ -258,7 +258,7 @@
                     android:elevation="10dp"
                     android:fontFamily="@font/andika"
                     android:paddingLeft="10dp"
-                    android:text="Ikat means..."
+                    android:text="Tinaggu pattern..."
                     android:textAlignment="textStart"
                     android:textSize="24sp"
                     android:textStyle="bold" />
@@ -272,10 +272,25 @@
                     android:elevation="10dp"
                     android:fontFamily="@font/andika"
                     android:paddingLeft="10dp"
+                    android:text="Ikat means..."
+                    android:textAlignment="textStart"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/tBtn14"
+                    android:layout_width="320dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/glossary_btn"
+                    android:elevation="10dp"
+                    android:fontFamily="@font/andika"
+                    android:paddingLeft="10dp"
                     android:text="The Kinarchago..."
                     android:textAlignment="textStart"
                     android:textSize="24sp"
                     android:textStyle="bold" />
+
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

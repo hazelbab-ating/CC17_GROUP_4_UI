@@ -50,7 +50,7 @@
         android:fontFamily="@font/bagel_fat_one"
         android:text="DID YOU KNOW?"
         android:textAlignment="center"
-        android:textColor="@color/red"
+        android:textColor="@color/green"
         android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,7 +67,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView20"
-        app:srcCompat="@drawable/kaminsa" />
+        app:srcCompat="@drawable/rectangle_58__7_" />
 
     <ImageView
         android:id="@+id/imageView33"
@@ -77,14 +77,14 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="@+id/imageView31"
         app:layout_constraintTop_toBottomOf="@+id/imageView32"
-        app:srcCompat="@drawable/red_popup" />
+        app:srcCompat="@drawable/score_color" />
 
     <TextView
         android:id="@+id/textView22"
-        android:layout_width="219dp"
-        android:layout_height="148dp"
+        android:layout_width="221dp"
+        android:layout_height="156dp"
         android:fontFamily="@font/andika"
-        android:text="The Kaminsa shield is an old wooden shield from the Ifugao people."
+        android:text="The Kinarchago is a short and narrow lufid skirt worn by women for daily fieldwork."
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="23sp"
@@ -93,7 +93,7 @@
         app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="@+id/imageView33"
         app:layout_constraintTop_toBottomOf="@+id/imageView32"
-        app:layout_constraintVertical_bias="0.532" />
+        app:layout_constraintVertical_bias="0.462" />
 
     <ImageView
         android:id="@+id/imageView34"
@@ -105,6 +105,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView33"
         app:layout_constraintVertical_bias="0.764"
-        app:srcCompat="@drawable/straw" />
+        app:srcCompat="@drawable/weave_box" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
