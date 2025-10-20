@@ -81,8 +81,7 @@
                 android:layout_height="96dp"
                 android:layout_margin="1dp"
                 android:background="@android:color/transparent"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/glossary_bg" />
+                android:scaleType="fitCenter"/>
 
             <ImageButton
                 android:id="@+id/ka2"

@@ -153,6 +153,22 @@
             android:exported="false" />
 
         <activity
+            android:name=".Glossary11"
+            android:exported="false" />
+
+        <activity
+            android:name=".Glossary12"
+            android:exported="false" />
+
+        <activity
+            android:name=".Glossary13"
+            android:exported="false" />
+
+        <activity
+            android:name=".Glossary14"
+            android:exported="false" />
+
+        <activity
             android:name=".Rewards"
             android:exported="false" />
     </application>

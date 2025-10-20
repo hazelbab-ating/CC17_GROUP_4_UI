@@ -65,6 +65,26 @@ class Glossary: AppCompatActivity() {
             val intent = Intent(this, Glossary10::class.java)
             startActivity(intent)
         }
+
+        findViewById<Button>(R.id.tBtn11).setOnClickListener {
+            val intent = Intent(this, Glossary11::class.java)
+            startActivity(intent)
+        }
+
+        findViewById<Button>(R.id.tBtn12).setOnClickListener {
+            val intent = Intent(this, Glossary12::class.java)
+            startActivity(intent)
+        }
+
+        findViewById<Button>(R.id.tBtn13).setOnClickListener {
+            val intent = Intent(this, Glossary13::class.java)
+            startActivity(intent)
+        }
+
+        findViewById<Button>(R.id.tBtn14).setOnClickListener {
+            val intent = Intent(this, Glossary14::class.java)
+            startActivity(intent)
+        }
     }
 }
 
@@ -180,6 +200,54 @@ class Glossary10: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.trivia10) // This is where you use the XML name
+
+        findViewById<ImageButton>(R.id.backBtn3).setOnClickListener {
+            val intent = Intent(this, Glossary::class.java)
+            startActivity(intent)
+        }
+    }
+}
+
+class Glossary11: AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.trivia11) // This is where you use the XML name
+
+        findViewById<ImageButton>(R.id.backBtn3).setOnClickListener {
+            val intent = Intent(this, Glossary::class.java)
+            startActivity(intent)
+        }
+    }
+}
+
+class Glossary12: AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.trivia12) // This is where you use the XML name
+
+        findViewById<ImageButton>(R.id.backBtn3).setOnClickListener {
+            val intent = Intent(this, Glossary::class.java)
+            startActivity(intent)
+        }
+    }
+}
+
+class Glossary13: AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.trivia13) // This is where you use the XML name
+
+        findViewById<ImageButton>(R.id.backBtn3).setOnClickListener {
+            val intent = Intent(this, Glossary::class.java)
+            startActivity(intent)
+        }
+    }
+}
+
+class Glossary14: AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.trivia14) // This is where you use the XML name
 
         findViewById<ImageButton>(R.id.backBtn3).setOnClickListener {
             val intent = Intent(this, Glossary::class.java)
